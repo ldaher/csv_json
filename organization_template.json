@@ -1,0 +1,33 @@
+{
+    "identifier": [
+        {
+            "use": "official",
+            "system": "cnpj",
+            "value": ""
+        }
+    ],
+    "name": "",
+    "active": true,
+    "address": [
+        {
+            "city": "",
+            "country": "Brasil",
+            "district": "",
+            "line": [
+                ""
+            ],
+            "postalCode": "",
+            "state": "SP",
+            "type": "postal",
+            "use": "work"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "use": "work",
+            "value": ""
+        }
+    ],
+    "resourceType": "Organization"
+}

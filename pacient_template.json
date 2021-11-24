@@ -1,0 +1,92 @@
+{
+    "managingOrganization": {
+        "reference": "Organization/{{organizationId}}"
+    },
+    "identifier": [
+        {
+            "use": "official",
+            "system": "carteirinha",
+            "value": ""
+        },
+        {
+            "use": "official",
+            "system": "cpf",
+            "value": ""
+        }
+    ],
+    "name": [
+        {
+            "family": "",
+            "given": [
+                ""
+            ],
+            "text": ""
+        }
+    ],
+    "gender": "",
+    "birthDate": "",
+    "maritalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+            }
+        ]
+    },
+    "telecom": [
+        {
+            "system": "email",
+            "value": ""
+        },
+        {
+            "system": "phone",
+            "use": "mobile",
+            "value": ""
+        }
+    ],
+    "address": [
+        {
+            "use": "home",
+            "type": "postal",
+            "city": "Ann Harbour",
+            "country": "EUA",
+            "line": [
+                "3300 Washtenaw"
+            ],
+            "postalCode": "48104",
+            "state": "MI",
+            "district": "Washtenaw"
+        }
+    ],
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+            "valueAddress": {
+                "use": "home",
+                "type": "postal",
+                "city": "Ann Harbour",
+                "country": "EUA",
+                "line": [
+                    "3300 Washtenaw"
+                ],
+                "postalCode": "48104",
+                "state": "MI",
+                "district": "Washtenaw"
+            }
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCode": "BR"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueString": "catholic"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+            "valueString": "Mariazinha Silva"
+        }
+    ],
+    "resourceType": "Patient"
+}

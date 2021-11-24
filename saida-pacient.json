@@ -1,0 +1,186 @@
+[
+    {
+        "managingOrganization": {
+            "reference": "Organization/{{organizationId}}"
+        },
+        "identifier": [
+            {
+                "use": "official",
+                "system": "carteirinha",
+                "value": "88888008368200010"
+            },
+            {
+                "use": "official",
+                "system": "cpf",
+                "value": "301.690.138-20"
+            }
+        ],
+        "name": [
+            {
+                "family": "SOARES",
+                "given": [
+                    "ANA"
+                ],
+                "text": "ANA NERY CUSTODIO SOARES"
+            }
+        ],
+        "gender": "female",
+        "birthDate": "2/15/1982",
+        "maritalStatus": {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                    "code": "M",
+                    "display": "Married"
+                }
+            ]
+        },
+        "telecom": [
+            {
+                "system": "email",
+                "value": "ananery.soares@test.com"
+            },
+            {
+                "system": "phone",
+                "use": "mobile",
+                "value": ""
+            }
+        ],
+        "address": [
+            {
+                "use": "home",
+                "type": "postal",
+                "city": "Ann Harbour",
+                "country": "EUA",
+                "line": [
+                    "3300 Washtenaw"
+                ],
+                "postalCode": "48104",
+                "state": "MI",
+                "district": "Washtenaw"
+            }
+        ],
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+                "valueAddress": {
+                    "use": "home",
+                    "type": "postal",
+                    "city": "Ann Harbour",
+                    "country": "EUA",
+                    "line": [
+                        "3300 Washtenaw"
+                    ],
+                    "postalCode": "48104",
+                    "state": "MI",
+                    "district": "Washtenaw"
+                }
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+                "valueCode": "BR"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+                "valueString": "catholic"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+                "valueString": "Mariazinha Silva"
+            }
+        ],
+        "resourceType": "Patient"
+    },
+    {
+        "managingOrganization": {
+            "reference": "Organization/{{organizationId}}"
+        },
+        "identifier": [
+            {
+                "use": "official",
+                "system": "carteirinha",
+                "value": "88888472532260013"
+            },
+            {
+                "use": "official",
+                "system": "cpf",
+                "value": "120.607.018-80"
+            }
+        ],
+        "name": [
+            {
+                "family": "RITA",
+                "given": [
+                    "JOAO"
+                ],
+                "text": "JOAO ADEMILSON RITA"
+            }
+        ],
+        "gender": "male",
+        "birthDate": "11/17/1940",
+        "maritalStatus": {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                    "code": "M",
+                    "display": "Married"
+                }
+            ]
+        },
+        "telecom": [
+            {
+                "system": "email",
+                "value": "caroline.andrade.dias@test.com"
+            },
+            {
+                "system": "phone",
+                "use": "mobile",
+                "value": ""
+            }
+        ],
+        "address": [
+            {
+                "use": "home",
+                "type": "postal",
+                "city": "Ann Harbour",
+                "country": "EUA",
+                "line": [
+                    "3300 Washtenaw"
+                ],
+                "postalCode": "48104",
+                "state": "MI",
+                "district": "Washtenaw"
+            }
+        ],
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+                "valueAddress": {
+                    "use": "home",
+                    "type": "postal",
+                    "city": "Ann Harbour",
+                    "country": "EUA",
+                    "line": [
+                        "3300 Washtenaw"
+                    ],
+                    "postalCode": "48104",
+                    "state": "MI",
+                    "district": "Washtenaw"
+                }
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+                "valueCode": "BR"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+                "valueString": "catholic"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+                "valueString": "Mariazinha Silva"
+            }
+        ],
+        "resourceType": "Patient"
+    }
+]

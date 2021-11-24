@@ -1,0 +1,50 @@
+{
+    "identifier": [
+        {
+            "use": "official",
+            "system": "cbo",
+            "value": "225285"
+        },
+        {
+            "use": "official",
+            "system": "crm",
+            "value": "CRM-144802-SP"
+        }
+    ],
+    "name": [
+        {
+            "family": "ZANUTTO",
+            "given": [
+                "TIAGO"
+            ],
+            "text": "TIAGO ANTONIO ZANUTTO",
+            "use": "official"
+        }
+    ],
+    "qualification": [
+        {
+            "issuer": {
+                "reference": "Organization/{{organizationId}}",
+                "type": "Organization"
+            },
+            "code": {
+                "coding": [
+                    {
+                        "code": "CBO",
+                        "system": "conselho"
+                    },
+                    {
+                        "code": "SP",
+                        "system": "uf-de-registro"
+                    },
+                    {
+                        "code": "225285",
+                        "system": "numero-registro"
+                    }
+                ],
+                "text": "CBO-225285-SP"
+            }
+        }
+    ],
+    "resourceType": "Practitioner"
+}

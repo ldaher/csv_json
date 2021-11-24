@@ -1,0 +1,68 @@
+[
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "cnpj",
+                "value": "28732903000267"
+            }
+        ],
+        "name": "ROSEBUD SERV ADM E CLINICA MEDICA - LAPA",
+        "active": true,
+        "address": [
+            {
+                "city": "SÃO PAULO",
+                "country": "Brasil",
+                "district": "LAPA",
+                "line": [
+                    "R CLEMENTE ALVARES, 31"
+                ],
+                "postalCode": "05074-050",
+                "state": "SP",
+                "type": "postal",
+                "use": "work"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "use": "work",
+                "value": "(11) 9999-9999"
+            }
+        ],
+        "resourceType": "Organization"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "cnpj",
+                "value": "28732903000186"
+            }
+        ],
+        "name": "ROSEBUD SERVICOS ADM E CLINICA MEDI - PINHEIROS",
+        "active": true,
+        "address": [
+            {
+                "city": "SÃO PAULO",
+                "country": "Brasil",
+                "district": "PINHEIROS",
+                "line": [
+                    "R PAIS LEME, 30"
+                ],
+                "postalCode": "05424-010",
+                "state": "SP",
+                "type": "postal",
+                "use": "work"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "use": "work",
+                "value": "(11) 4118-2277"
+            }
+        ],
+        "resourceType": "Organization"
+    }
+]
